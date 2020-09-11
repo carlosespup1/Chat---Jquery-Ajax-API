@@ -41,11 +41,14 @@ function leerMensajes() {
             let linea = 0;
 
             for (i = 0; i < data.length; i++){
+
+                linea += 1;
+
                 HTML += "<div class = 'mensaje'>";
                     HTML += "<b class = 'user'>" + data[i]["username"] + "</b>";
                     HTML += "<br>";
                     HTML += "<div class = 'caja-mensaje'>";
-                    HTML += "<i>" + data[i]["mensaje"] + "<br>" + data[i]["hora"];
+                        HTML += linea + ": "  + "<b class = 'campo-msg'>" + data[i]["mensaje"] + "</b>" + "<br>" + "<br>" + "<b class = 'campo-hora'>" + data[i]["hora"] + "</b";
                     HTML += "</div>";
                 HTML += "</div>";
             }

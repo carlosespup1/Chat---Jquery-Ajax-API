@@ -116,9 +116,9 @@
 
 .user {
 
-    color: #115BCB;
+    color: #000;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 /*Caja de mensajes enviados*/
@@ -127,9 +127,21 @@
 
     width: 90%;
     height: auto;
-    background-color: #16879E;
+    background-color: #072654;
     color: #fff;
     margin-left: 18px;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 10px;
+}
+
+.campo-msg {
+
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.campo-hora {
+
+    color: #606367;
 }
