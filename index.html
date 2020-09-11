@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chat - Ucreativa</title> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="estilos/estilos.css">
+    </head>
+    <body>
+    <div class="contenedor-principal">
+        <div class="encabezado">
+            <h2>Techground - Ucreativa</h2>
+            <img class="figura2" src="imagenes/Ellipse3.png" alt="elipse2">
+        </div>
+        
+        <div class="figura">
+            <img src="imagenes/Ellipse1.jpg" alt="figura" width="215px" height="215px">
+        </div>
+        <section class="cotenedor-completo">
+            <div class="contenedor-datos">
+                <h3 class="texto-usuario">Usuario</h3>
+                <input id="username" class="input-usuario" placeholder="Usuario" required>
+                <textarea class="input-msg" name="textarea" rows="10" cols="50" id="mensajeTXT" placeholder="Escribe algo..."></textarea>
+                <button class="boton" id="botonEnviar">Enviar</button>
+            </div>
+
+            
+            <div id="mensajes" class="mensajes">
+                
+            </div>    
+        </section>
+    </div>
+        <script src="Scripts/api-chat.js"></script>
+    </body>
+</html>
